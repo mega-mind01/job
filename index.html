@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Appication Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <h1>Job Application Form</h1>
+        </header>
+
+        <section>
+            <h2>Fill the form below</h2>
+            <p>Interested in joing our IT team, apply now buy filling the form below inputtting the right details</p>
+            <form action="Success.html" method="get">
+                <div class="hero">
+                    <div class="A">
+                        <label for="name">Name<span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required autofocus placeholder="John Doe" pattern="[a-zA-Z]+\s[a-zA-Z]+">
+            
+                        <label for="Email">Email<span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="example@domain.ext" pattern="[a-zA-Z0-9-.]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,6}">
+            
+                        <label for="tel">Phone Number<span class="required">*</span></label>
+                        <input type="tel" id="tel" name="tel" required placeholder="00000000000">
+            
+                        <label for="myfile">Resume<span class="required">*</span></label>
+                        <input type="file" id="myfile" name="file" required>
+            
+                        <label for="jobtype" id="jobs"> preferred Job Type<span class="required">*</span></label>
+                        <select name="jobtypes" id="jobtypes" required>
+                            <option value="Entry">Entry level</option>
+                            <option value="Junior"> Junior Developer</option>
+                            <option value="Intermediate">Intermediate Developer</option>
+                            <option value="Senior">Senior Developer</option>
+                            <option value="Product"> Product Manager</option>
+                            <option value="DevOps">DevOps</option>
+                        </select>
+            
+                        <label for="message">Educational Background</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                   </div>
+    
+                    <div class="B">
+                        <label for="checkbox">Select Skills</label>
+                        <div class="hac">
+                            <input type="checkbox" id="skill-1">
+                            <label for="skill-1">pHp Laravel</label>
+                        </div>
+                        <div class="hac">
+                            <input type="checkbox" id="skill-2">
+                            <label for="skill-2">C#</label>
+                        </div>
+                        <div class="hac">
+                            <input type="checkbox" id="skill-3">
+                            <label for="skill-3">Python</label>
+                        </div>
+                        <div class="hac">
+                            <input type="checkbox" id="skill-4">
+                            <label for="skill-4">Java Script</label>
+                        </div>
+                        <div class="hac">
+                            <input type="checkbox" id="skill-5">
+                            <label for="skill-5">.NET</label>
+                        </div>
+            
+                        <label for="radio">Years Of Experience</label>
+                        <div class="hac">
+                            <input type="radio" id="yr-1">
+                            <label for="yr-1">1-3 Years</label>
+                        </div>
+                        <div class="hac">
+                            <input type="radio" id="yr-2">
+                            <label for="yr-2">4-6 Years</label>
+                        </div>
+            
+                        <label for="radio">Are you willing to relocate?</label>
+                        <div class="hac">
+                            <input type="radio" id="yes">
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div class="hac">
+                            <input type="radio" id="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </section>
+</body>
+</html>

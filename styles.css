@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.container, .container2{
+    width: 960px;
+    min-height: 600px;
+}
+
+.container header, .container2 header{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 10px;
+}
+
+.container header h1, .container2 header h1{
+    margin: 0;
+    color: white;
+
+}
+
+.container section{
+    padding: 30px 20px;
+}
+
+.container section form{
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container section form .hero{
+    width: 100%;
+    display: flex;
+}
+
+.container section form .hero div{
+    width: 50%;
+}
+
+.container section form .hero .B{
+    padding: 0 50px;
+}
+
+.container section form input, label, textarea, select{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container section form select option{
+    color: black;
+}
+
+textarea{
+    height: 160px;
+}
+
+.container section form input{
+    height: 35px;
+    color: brown;
+}
+
+.hac{
+    display: flex;
+    width: 200px;
+}
+
+.hac label{
+    margin: 0;
+    width: 500px;
+    padding-top: 20px;
+}
+
+.container section form textarea{
+    resize: none;
+    color: brown;
+}
+
+.container section form input[type="submit"]{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 20%;
+    margin-left: 350px;
+}
+
+.required{
+    color: red;
+}
+
+.container2 .img{
+    background-image: url(./images/check_5610944.png);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    border: solid red;
+}
