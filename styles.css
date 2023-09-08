@@ -60,7 +60,7 @@ body{
     margin-top: 15px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
@@ -74,7 +74,7 @@ textarea{
 
 .container section form input{
     height: 35px;
-    color: brown;
+    color: black;
 }
 
 .hac{
@@ -90,7 +90,7 @@ textarea{
 
 .container section form textarea{
     resize: none;
-    color: brown;
+    color: black;
 }
 
 .container section form input[type="submit"]{
@@ -108,8 +108,21 @@ textarea{
 
 .container2 .img{
     background-image: url(./images/check_5610944.png);
-    height: 200px;
-    width: 100%;
+    height: 180px;
+    width: 19%;
+    margin: 50px auto;
+    border-radius: 30px;
     background-repeat: no-repeat;
-    border: solid red;
+}
+
+.container2 .nxt{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container2 .nxt a{
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    border-radius: 10px;
 }
