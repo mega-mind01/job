@@ -105,6 +105,7 @@ textarea{
 
 .container section form input[type="submit"]:hover{
     background-color: blue;
+    color: white;
 }
 
 .required{
